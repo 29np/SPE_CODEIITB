@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SPEProject:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SPEProject</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="SPEProject.war">
+      <element id="artifact" artifact-name="SPEProject:war exploded" />
+    </root>
+  </artifact>
+</component>
